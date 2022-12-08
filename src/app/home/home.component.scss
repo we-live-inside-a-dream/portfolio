@@ -1,4 +1,41 @@
-.card{
-  display: flex;
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  background-position-y: 25%;
+  margin-left: 50px;
+}
 
+.image-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  padding-left: 10%;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.introduction {
+  text-align: center;
+  color: aliceblue;
+  font-family: 'sans-serif';
+  font-size: 2em;
+  width: 50%;
+  height: 90%;
+  background: black;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.greeting{
+  text-align: left;
+  padding-bottom: 1%;
+}
+
+.name{
+  text-align: center;
+  padding-top: 10%;
+  color: white;
 }
