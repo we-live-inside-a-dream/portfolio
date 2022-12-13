@@ -17,13 +17,12 @@
 }
 
 .introduction {
-  text-align: center;
-  color: aliceblue;
+  text-align: left;
+  color: black;
   font-family: 'sans-serif';
-  font-size: 2em;
+  font-size: 30px;
   width: 50%;
   height: 90%;
-  background: black;
   margin: 0 auto;
   padding-top: 50px;
 }
@@ -31,10 +30,12 @@
 .greeting{
   text-align: left;
   padding-bottom: 1%;
+  font-family: 'sans-serif';
+  font-size: 30px;
 }
 
 .name{
   text-align: center;
   padding-top: 10%;
-  color: white;
+  color: black;
 }
