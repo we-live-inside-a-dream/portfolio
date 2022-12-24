@@ -14,17 +14,18 @@ justify-content: end;
 
 .content {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   margin: 5vw;
   padding: 2vw;
-  //border: 1px solid black;
-  //border-radius: 20px;
-  //background-color: rgba(255,255,255,0.5);
+  height: 70vh;
 }
 
 .introduction {
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: black;
   font-family: 'sans-serif';
   font-size: 30px;
