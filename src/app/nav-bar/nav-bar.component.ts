@@ -9,7 +9,7 @@ import { map, shareReplay } from 'rxjs/operators';
   styleUrls: ['./nav-bar.component.scss']
 })
 export class NavBarComponent {
-
+  
 
   constructor() {}
 
