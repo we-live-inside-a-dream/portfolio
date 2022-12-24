@@ -14,6 +14,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { SkillsPageComponent } from './skills-page/skills-page.component';
+import { SwiperModule } from 'swiper/angular';
+import { SwiperComponent } from './swiper/swiper.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +23,7 @@ import { SkillsPageComponent } from './skills-page/skills-page.component';
     ProjectsComponent,
     NavBarComponent,
     SkillsPageComponent,
+    SwiperComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,7 @@ import { SkillsPageComponent } from './skills-page/skills-page.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    SwiperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
