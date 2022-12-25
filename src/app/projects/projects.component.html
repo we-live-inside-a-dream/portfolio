@@ -1,2 +1,30 @@
-<a routerLink="/" routerLinkActive="active" aria-current="page">Home Page</a>
-<p>projects works!</p>
+<h3 class="projects" id="projects">projects</h3>
+
+<div style="height: 650px">
+  <swiper
+    [slidesPerView]="3"
+    [spaceBetween]="50"
+    [navigation]="true"
+    [pagination]="{ clickable: true }"
+    [scrollbar]="{ draggable: true }"
+  >
+    <ng-template swiperSlide>
+      <img style="height: 600px" src="https://picsum.photos/300/200?random=1" />
+    </ng-template>
+    <ng-template swiperSlide>
+      <img style="height: 600px" src="https://picsum.photos/300/200?random=2" />
+    </ng-template>
+    <ng-template swiperSlide>
+      <img style="height: 600px" src="https://picsum.photos/300/200?random=3" />
+    </ng-template>
+    <ng-template swiperSlide>
+      <img style="height: 600px" src="https://picsum.photos/300/200?random=4" />
+    </ng-template>
+    <ng-template swiperSlide>
+      <img style="height: 600px" src="https://picsum.photos/300/200?random=5" />
+    </ng-template>
+    <ng-template swiperSlide>
+      <img style="height: 600px" src="https://picsum.photos/300/200?random=6" />
+    </ng-template>
+  </swiper>
+</div>

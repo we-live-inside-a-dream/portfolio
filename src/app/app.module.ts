@@ -15,7 +15,6 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { SkillsPageComponent } from './skills-page/skills-page.component';
 import { SwiperModule } from 'swiper/angular';
-import { SwiperComponent } from './swiper/swiper.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +22,6 @@ import { SwiperComponent } from './swiper/swiper.component';
     ProjectsComponent,
     NavBarComponent,
     SkillsPageComponent,
-    SwiperComponent,
   ],
   imports: [
     BrowserModule,
