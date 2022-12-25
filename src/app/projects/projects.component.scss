@@ -1,0 +1,54 @@
+@import '~swiper/swiper-bundle.min.css';
+
+.projects {
+  text-align: center;
+  color: coral;
+  font-size: 30px;
+  width: 50%;
+  height: 90%;
+  margin: 10rem auto;
+  padding-top: 50px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin: 5vw;
+  padding: 2vw;
+  height: 100vh;
+}
+
+
+.swiper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+  background: black;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  opacity: 50%;
+}
+
+// .swiper-pagination-bullet,
+// .swiper-pagination-bullet-active {
+//     width: 20px;
+//     height: 20px;
+// }
+
+.swiper-pagination-bullet-active {
+  background: red;
+}
